@@ -4,9 +4,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*header*/
-.logo img{
+.logo--imagen{
     height: 50px;    
 }
+
+.container-fluid{ background-color: #B3365B;}
+
 .head{ background-color: #B3365B;}
 .navbar__ul{ 
     display: flex;
@@ -14,7 +17,7 @@
     
 }
 
-.navbar__ul-li a {
+.nav-link {
     text-decoration: none;
     color: #fff;
     padding: 1rem;
@@ -123,6 +126,8 @@ footer{
     height: 300px;
 }
 
+
+
 /*hombre*/
 .hombre__1{
     display: flex;
@@ -137,10 +142,12 @@ footer{
     display: flex;
     justify-content:space-between ;
     height: 300px;
+   
 }
 .div__hombre2{
     display: flex;
-    justify-content:space-between ;
+    justify-content:space-between;
+    
     height: 300px;
 }
 
