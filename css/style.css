@@ -2,10 +2,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
+
 /*header*/
+
 .logo--imagen{
-    height: 50px;    
+    height: 50px; 
+    
+       
 }
 
 .container-fluid{ background-color: #B3365B;}
@@ -16,6 +21,7 @@
     justify-content: flex-end;
     
 }
+
 
 .nav-link {
     text-decoration: none;
@@ -29,18 +35,17 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
-    }
+        }
 
 /*home*/
 .mainlogoinf{
 display: flex;
-
-
 }
+
 .body__home {
     background-color: #B3365B;
     }
+
     .div__logo{ 
         background-image: url(../assets/logo.png);
         background-position: center;
@@ -49,10 +54,7 @@ display: flex;
         width: 100%;
     }
 
-
-        
-   
-    .section__letras{ 
+ .section__letras{ 
         color: #fff;
         text-align: left;
         background-position: center;
@@ -76,17 +78,27 @@ display: flex;
             margin-right: 100px;
             font-size: 40px;
             background-position: center;
-            
-                 
+        }
+   .boton{
+    background-color: #EBCACA;
+    color: #B3365B;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
     }
-   
+   .boton:hover{ background-color: white;}
+   .enviar{
+
+    padding-left: 1rem;
+   }
     p{
         padding: 1rem;
         font-size: 20px;
         background-position: 10px;
-        
-        
-}
+        }
+
+
+    
 
 /*home*/
 
@@ -95,6 +107,7 @@ footer{
     background-color:#EBCACA;
     height: 200px;
     justify-content: center;
+    
     
 }
 .parrafo{ 
