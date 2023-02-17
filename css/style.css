@@ -131,14 +131,19 @@ footer{
 .div__mujer1{
     display: flex;
     justify-content:space-between ;
-    height: 300px;
+    height: 200px;
+    margin: 1rem;
 }
 .div__mujer2{
     display: flex;
     justify-content:space-between ;
-    height: 300px;
+    height: 200px;
+    margin: 1rem;
 }
-
+.parrafo{
+    display: flex;
+    flex-direction: column;
+}
 
 
 /*hombre*/
