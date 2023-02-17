@@ -140,10 +140,7 @@ footer{
     height: 200px;
     margin: 1rem;
 }
-.parrafo{
-    display: flex;
-    flex-direction: column;
-}
+
 
 
 /*hombre*/
@@ -159,14 +156,15 @@ footer{
 .div__hombre1{
     display: flex;
     justify-content:space-between ;
-    height: 300px;
+    height: 200px;
+    margin: 1rem;
    
 }
 .div__hombre2{
     display: flex;
     justify-content:space-between;
-    
-    height: 300px;
+    height: 200px;
+    margin: 1rem;
 }
 
 /*niño*/
@@ -182,12 +180,14 @@ footer{
 .div__niño1{
     display: flex;
     justify-content:space-between ;
-    height: 300px;
+    height: 200px;
+    margin: 1rem;
 }
 .div__niño2{
     display: flex;
     justify-content:space-between ;
-    height: 300px;
+    height: 200px;
+    margin: 1rem;
 }
 
 /*novedades*/
@@ -207,5 +207,6 @@ footer{
 
 }
 #section__novedades img{ 
-    height: 300px;
+    height: 200px;
+    margin: 1rem;
 }
