@@ -8,11 +8,13 @@
 }
 /*Movil*/
 
-@media (max-width: 500px ){
-    .title{
-        color: black;
+@media script and (max-width: 500px ){
+    .nav-link{
+        width: 95%;
+        flex-direction: column;
+        justify-content: space-between;
 
-    }
+}
     
 }
 /*header*/
@@ -206,5 +208,7 @@ footer{
     }
 
 }
+
+
 
 
